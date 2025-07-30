@@ -7,3 +7,4 @@ sentence-transformers
 python-dotenv
 google-generativeai
 --extra-index-url https://download.pytorch.org/whl/cpu
+langchain-huggingface
