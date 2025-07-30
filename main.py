@@ -99,3 +99,6 @@ async def clear_user(user_id: str):
         return {"message": f"Cleared FAISS data for user '{user_id}'"}
     except FileNotFoundError:
         return {"error": "No data found for this user"}
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
